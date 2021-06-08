@@ -8,6 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="derby" level="project" />
-    <orderEntry type="library" name="dp" level="project" />
+    <orderEntry type="library" name="SingletonDerby" level="project" />
   </component>
 </module>

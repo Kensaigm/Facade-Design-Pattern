@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SingletonDerby">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Singleton Design Pattern/out/production/Singleton Design Pattern/SingletonDerby.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
