@@ -22,8 +22,8 @@ public class JdbcFacade {
             Statement statement = conn.createStatement();
             count = statement.executeUpdate("CREATE TABLE Address (ID INT, StreetName VARCHAR(40),"
                     + " City VARCHAR(25), State CHAR(2), Zip CHAR(10))");
-            statement.close();
-            conn.close();
+            // statement.close();
+            // conn.close();
         } catch (SQLException e){
             e.printStackTrace();
         }
@@ -37,8 +37,8 @@ public class JdbcFacade {
             Statement statement = conn.createStatement();
             count = statement.executeUpdate("INSERT INTO Address (ID, StreetName, City, State, Zip) "
                     + "VALUES (1, '42 Main Street', 'Sandwich', 'IL', '60548')");
-            statement.close();
-            conn.close();
+            // statement.close();
+            // conn.close();
         } catch (SQLException e){
             e.printStackTrace();
         }
@@ -67,9 +67,9 @@ public class JdbcFacade {
                 addresses.add(address);
             }
 
-            rs.close();
-            statement.close();
-            conn.close();
+            // rs.close();
+            // statement.close();
+            // conn.close();
         } catch (SQLException e){
             e.printStackTrace();
         }
